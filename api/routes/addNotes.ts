@@ -13,7 +13,7 @@ export const addNote = async (
   }
 
   try {
-    console.log("Data being sent:", { category, description, date });
+    console.log("Data being sent    :", { category, description, date });
 
     const response = await instance.post(
       "/notes",
